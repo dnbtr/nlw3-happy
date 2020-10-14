@@ -1,17 +1,17 @@
 ## Happy
 
->Aplicação escrita durante o Next Level Week #3 da Rocketseat.
+Aplicação escrita durante o Next Level Week #3 da Rocketseat.
 
 ---
 
 ## Linguagens, Libs e Frameworks utilizados:
 
->Typescript
+**Typescript**
 - Com tipagens especificas de cada pacote (`yarn add @types/[nome-do-pacote]`)
 
 ---
 
->Frontend - ReactJS
+**Frontend - ReactJS**
 - Template - [create-react-app](https://github.com/facebook/create-react-app)
 - [react-router-dom](https://reactrouter.com) (Roteamento das páginas/componentes)
 - [react-icons](https://react-icons.github.io/react-icons) - Lib de ícones-padrão;
@@ -19,7 +19,7 @@
 
 ---
 
->Backend - NodeJS
+**Backend - NodeJS**
 - [cors](https://www.npmjs.com/package/cors) - Para possibilitar uso de [Cross-origin resource sharing](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing);
 - [express-async-errors](https://www.npmjs.com/package/express-async-errors) - Para facilitar gerenciamento de erros em funções assíncronas;
 - [multer](https://www.npmjs.com/package/multer) - Para upload de imagens;
@@ -27,23 +27,23 @@
 
 ---
 
->Banco de dados
+**Banco de dados**
 - [SQLite](https://www.sqlite.org)
 - [TypeORM](https://typeorm.io)
 
 ---
 ## Instalação (Linux/Debian)
 
-# Clonar este repositório
+#### Clonar este repositório
 `$ git clone https://github.com/dnbtr/nlw3-happy.git`
 
-# Criar as tabelas do banco de dados com o comando
+#### Criar as tabelas do banco de dados com o comando
 `$ yarn typeorm migration:run`
 
-# Iniciar o servidor 
+#### Iniciar o servidor 
 `$ yarn run dev`
 
-# Caso contrário, ao tentar usar as APIs, receberá erros do tipo:
+#### Caso contrário, ao tentar usar as APIs, receberá erros do tipo:
 ```
 QueryFailedError: SQLITE_ERROR: no such table: orphanages
 ```
