@@ -69,6 +69,8 @@ export default {
     });
 
     //Definindo o objeto data para aplicar validação com o YUP
+    //Não entendi a gambiarra feita pra converter a string open_on_weekends para boolean
+    //Ver se o cast() do Yup consegue fazer essa conversão
     const data = {
       name,
       latitude,
@@ -76,7 +78,7 @@ export default {
       about,
       instructions,
       opening_hours,
-      open_on_weekends,
+      open_on_weekends: open_on_weekends === 'true',
       images
     };
 

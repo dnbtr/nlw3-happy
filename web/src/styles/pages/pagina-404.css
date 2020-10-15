@@ -1,0 +1,15 @@
+#pagina-404 {
+  width: 100vw;
+  height: 100vh;
+  /* background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%); */
+}
+
+#pagina-404 .text {
+  width: 100vw;
+  height: 100vh;
+  /* background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%); */
+  color: #00C7C7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
